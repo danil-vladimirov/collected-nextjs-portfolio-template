@@ -49,7 +49,7 @@ Deploy this template with [Vercel](https://vercel.com) and start filling your po
 
 | [Portfolio Website](https://template-nextjs-personal-website.sanity.build/) | [Sanity Studio](https://template-nextjs-personal-website.sanity.build/studio) |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| ![Portfolio Website](https://github.com/user-attachments/assets/39f4c4eb-6836-4977-8c52-480ba1d5029f)                                                      | ![Sanity Studio](https://github.com/user-attachments/assets/8db58b28-9044-4f7f-bfc2-aac1bea694f9)  
+| ![Portfolio Website](https://github.com/user-attachments/assets/2b5b9cc4-a143-4231-89cf-5d12c2e07a9f)                                                      | ![Sanity Studio](https://github.com/user-attachments/assets/94597250-92d0-4d9e-aeaa-a8965d6768d1)  
 
 <br />
 
