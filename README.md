@@ -47,9 +47,9 @@ Deploy this template with [Vercel](https://vercel.com) and start filling your po
 
 # Overview
 
-| [Portfolio Website](https://template-nextjs-personal-website.sanity.build/) | [Sanity Studio](https://template-nextjs-personal-website.sanity.build/studio) |
-| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| ![Portfolio Website](https://github.com/user-attachments/assets/2b5b9cc4-a143-4231-89cf-5d12c2e07a9f)                                                      | ![Sanity Studio](https://github.com/user-attachments/assets/94597250-92d0-4d9e-aeaa-a8965d6768d1)  
+| [Portfolio Website](https://template-nextjs-personal-website.sanity.build/)                           | [Sanity Studio](https://template-nextjs-personal-website.sanity.build/studio)                     |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| ![Portfolio Website](https://github.com/user-attachments/assets/2b5b9cc4-a143-4231-89cf-5d12c2e07a9f) | ![Sanity Studio](https://github.com/user-attachments/assets/94597250-92d0-4d9e-aeaa-a8965d6768d1) |
 
 <br />
 
@@ -147,7 +147,7 @@ Base structure and Sanity fetching logic is based on [template-nextjs-personal-w
 > Github [@danil-vladimirov](https://github.com/danil-vladimirov) &nbsp;&middot;&nbsp;
 > Instagram [@danilvladimirov](https://instagram.com/danilvladimirov)
 
-[vercel-deploy]: https://vercel.com/
+[vercel-deploy]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdanil-vladimirov%2Fcollected-nextjs-portfolio-template&project-name=collected-nextjs-portfolio-template&repository-name=collected-nextjs-portfolio-template&demo-title=Collected+Portfolio+Template&demo-description=A+Sanity-powered+Nextjs+portfolio+website+with+built-in+content+editing.&demo-url=https%3A%2F%2Fcollected-nextjs-portfolio-template.vercel.app%2F&demo-image=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkpvqqfux%2Fproduction%2Fda082b62d1828efe642c617ddc4771a4d267fc5e-3092x1790.png&integration-ids=oac_hb2LITYajhRQ0i4QznmKH7gx&external-id=nextjs%3Btemplate%3Dtemplate-nextjs-personal-website
 [integration]: https://www.sanity.io/docs/vercel-integration
 [nextjs]: https://github.com/vercel/next.js
 [sanity-homepage]: https://www.sanity.io

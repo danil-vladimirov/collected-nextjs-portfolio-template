@@ -19,13 +19,15 @@ export default function Footer(props: FooterProps) {
         )}
       </div>
       <div className="text-sm text-center md:text-sm">
-        <div>Last updated:</div>
-        <div>
-          {new Date(lastUpdated).toLocaleString('en-GB', {
-            dateStyle: 'long',
-            timeStyle: 'short',
-          })}
-        </div>
+        {lastUpdated && (
+          <div>
+            <div>Last updated:</div>
+            {new Date(lastUpdated).toLocaleString('en-GB', {
+              dateStyle: 'long',
+              timeStyle: 'short',
+            })}
+          </div>
+        )}
       </div>
     </footer>
   )
