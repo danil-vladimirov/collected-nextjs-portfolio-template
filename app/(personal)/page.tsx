@@ -18,7 +18,7 @@ export default async function IndexRoute() {
 
   if (!initial.data) {
     return (
-      <div className="text-center">
+      <div className="text-center text-2xl">
         You don&rsquo;t have a homepage yet,{' '}
         <Link href={`${studioUrl}/structure/home`} className="underline">
           create one now
