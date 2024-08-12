@@ -73,7 +73,6 @@ export interface Content {
 }
 
 export interface SettingsPayload {
-  footer?: PortableTextBlock[]
   menuItems?: {
     page?: PageItem[]
     link?: LinkItem[]
@@ -91,6 +90,7 @@ export interface SettingsPayload {
     g?: string
     b?: string
   }
+  displayLastUpdated: boolean
 }
 
 export interface AboutPayload {

@@ -154,5 +154,6 @@ export const settingsQuery = groq`
       'g': rgb.g,
       'b': rgb.b,
     },
+    displayLastUpdated,
   }
 `

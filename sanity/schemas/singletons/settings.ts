@@ -94,6 +94,12 @@ export default defineType({
       title: 'Text color',
       type: 'color',
     }),
+    defineField({
+      title: 'Display "Last updated" at the footer of the website',
+      description: 'Turn on to display time whe you last added new project to your Home page',
+      name: 'displayLastUpdated',
+      type: 'boolean',
+    }),
   ],
   preview: {
     prepare() {

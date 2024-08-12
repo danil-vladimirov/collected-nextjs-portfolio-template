@@ -2,8 +2,7 @@
 
 import { motion } from 'framer-motion'
 
-// Fade in animation setup
-
+// On load fade in animation setup
 const duration = 0.4
 const variants = {
   initial: {
@@ -30,6 +29,7 @@ console.log(
   'display:block;font-family:courier;font-size:12px;font-weight:bold;line-height:1;color:black;',
 )
 
+// Wrapping with framer motion
 export default function Template({ children }: { children: React.ReactNode }) {
   return (
     <motion.div
