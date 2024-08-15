@@ -22,27 +22,27 @@
 
 <br />
 
-Clean and easy to use portfolio website helping visual creators showcase their work. Built with customisation in mind: set `custom colors` for your website, upload `custom logo`, create projects with modular `content builder`, select and order projects that is being displayed at Home page. This template is a statically generated portfolio website that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content.
+A clean and easy-to-use portfolio website that helps visual creators showcase their work. Built with customisation in mind: set `custom colors` for your website, upload a `custom logo`, create projects with a modular `content builder`, and select and order the projects displayed on your Home page. This template is a statically generated portfolio website that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content.
 
-Deploy this template with [Vercel](https://vercel.com) and start filling your portfolio website right away:
+Deploy this template with [Vercel](https://vercel.com) and start building your portfolio website right away:
 
 [![Deploy with Vercel](https://vercel.com/button)][vercel-deploy]
 
 # Features
 
 - A performant, static portfolio website with editable `Home page`, `Projects` and optional `About page`
-- Clean and frendly content managment environment by [Sanity][sanity-homepage], accessible on `yourwebsite.com/studio`
+- A clean and user-friendly content management environment by [Sanity][sanity-homepage], accessible on `yourwebsite.com/studio`
 - Webhook-triggered Incremental Static Revalidation; no need to wait for a rebuild to publish new content
 - Side-by-side instant content preview that works across your whole site
 - CSS powered by [Tailwind CSS](https://tailwindcss.com)
 - Animation powered by [Framer Motion](https://www.framer.com/motion/)
 - Built-in customisation features:
-  - Set your background and text colors for the whole website
-  - Upload your favicon, OG-image
-  - Select and order projects that is displayed at Home page
-  - Modular page content builder for Project page
-  - Dynamic external links display at `Navbar`
-  - Upload custom logo to replace wibsite Title at `Navbar`
+  - Set your background and text colors for the entire website
+  - Upload your favicon and OG-image
+  - Select and order projects displayed on the Home page
+  - Modular page content builder for the Project page
+  - Dynamic external links display in the `Navbar`
+  - Upload a custom logo to replace the website title in the `Navbar`
     <br />
 
 # Overview
