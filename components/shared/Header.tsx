@@ -9,7 +9,7 @@ export function Header(props: HeaderProps) {
     return null
   }
   return (
-    <div className="w-full md:w-4/5">
+    <div className="w-full md:w-4/6">
       {description && (
         <div className="mt-4 text-3xl md:text-4.5xl">
           {description.displayText == true && (

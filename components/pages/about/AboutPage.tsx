@@ -15,26 +15,23 @@ export function AboutPage({ data }: AboutPageProps) {
   const { title, overview, aboutImage, aboutLinks } = data ?? {}
 
   return (
-    <div className='mt-4 grid gap-5 grid-cols-1 xl:grid-cols-2'>
-
-      <div className='w-full'>
+    <div className="h-full mt-4 grid gap-5 grid-cols-1 xl:grid-cols-2">
+      <div className="w-full">
         {/* Title */}
-        <div>
-          {title && (title)}
-        </div>
-          
+        <div>{title && title}</div>
+
         {overview && (
           <div className="mt-2 text-2xl md:text-3xl">
             <CustomPortableText value={overview} />
           </div>
         )}
 
-        <div className='mt-10 flex flex-col'>
+        <div className="mt-10 flex flex-col">
           {/* Links */}
-          {aboutLinks && 
+          {aboutLinks &&
             aboutLinks.map((aboutLink, key) => {
               return (
-                <div key={key} className='flex flex-wrap'>
+                <div key={key} className="flex flex-wrap">
                   <Link
                     target="_blank"
                     className={`flex flex-wrap text-xl text-secondary underline md:text-2xl`}
@@ -44,21 +41,20 @@ export function AboutPage({ data }: AboutPageProps) {
                   </Link>
                 </div>
               )
-          })}
+            })}
         </div>
-
       </div>
 
-      <div className='flex w-full h-full'>
+      <div className="w-full">
         {/* About image */}
-        {aboutImage && <AboutImageBox
-          image={aboutImage}
-          alt={`About image`}
-          classesWrapper="relative"
-        />
-        }
+        {aboutImage && (
+          <AboutImageBox
+            image={aboutImage}
+            alt={`About image`}
+            classesWrapper="relative"
+          />
+        )}
       </div>
-      
     </div>
   )
 }
