@@ -29,6 +29,7 @@ export default function VideoBox({ videoLink, caption }: VideoBoxProps) {
             playing={true}
             muted={true}
             controls={true}
+            loop={true}
           />
         ) : (
           ''
