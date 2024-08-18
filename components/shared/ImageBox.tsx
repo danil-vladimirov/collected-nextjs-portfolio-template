@@ -57,11 +57,14 @@ export default function ImageBox({
           src={imageUrl}
         />
       )}
-      <div className={`w-full overflow-hidden`}>
+      <div className={`w-full overflow-hidden h-full`}>
         <Image
           width={width}
           height={height}
           src={previewImageUrl}
+          style={{
+            height: '100%',
+          }}
           alt=""
           role="presentation"
         />
