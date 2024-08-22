@@ -34,7 +34,7 @@ export default function Navbar(props: NavbarProps) {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto' }}
+              style={{ width: 'auto', height: 'auto' }}
               src={logoImageUrl}
             />
           </div>
