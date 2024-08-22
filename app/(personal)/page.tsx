@@ -19,9 +19,9 @@ export default async function IndexRoute() {
   if (!initial.data) {
     return (
       <div className="text-center text-2xl">
-        You don&rsquo;t have a homepage yet,{' '}
+        Congrats! You created your website, now you can go to your Studio and{' '}
         <Link href={`${studioUrl}/structure/home`} className="underline">
-          create one now
+          start editing your homepage
         </Link>
         !
       </div>

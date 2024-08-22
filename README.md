@@ -2,7 +2,7 @@
 <img src="sanity/plugins/collected-logo-black.svg" align="center" height="70" />
 </p>
 <p align="center">
-  <strong>Portfolio template website built on <a href="https://nextjs.org">Next.js</a></strong><br />
+  <strong>Portfolio website template built on <a href="https://nextjs.org">Next.js</a></strong><br />
   <strong>Headless CMS powered by <a href="https://sanity.io">Sanity.io</a></strong><br />
 </p>
 
