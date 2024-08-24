@@ -8,7 +8,10 @@
 
 <p align="center">
   <a href="https://collected-nextjs-portfolio-template.vercel.app/">
-    <img src="https://img.shields.io/static/v1?label=&message=View%20Demo&style=for-the-badge&color=black" />
+    <img src="https://img.shields.io/static/v1?label=&logo=vercel&message=View%20Demo&style=for-the-badge&color=black" />
+  </a>
+  <a href="https://collected.to">
+    <img src="https://img.shields.io/static/v1?label=&message=collected.to&style=for-the-badge&color=351BD3" />
   </a>
 </p>
 
@@ -18,7 +21,6 @@
   <a href="#-automatic-set-up">Set Up</a> •
   <a href="#local-configuration">Local configuration</a>
 </p>
-<br />
 
 <br />
 
@@ -59,8 +61,10 @@ Quickly deploy as a Sanity Starter on [Vercel](https://vercel.com) a clean versi
 
 [![Deploy with Vercel](https://vercel.com/button)][vercel-deploy]
 
-**5-Minute Setup Walkthrough - `Coming Soon`** <br />
-From deploy to launch, watch me building up a fresh portfolio website in under 5 minutes!
+<br />
+
+**[⚡ 14-Minute Setup Walkthrough](https://youtu.be/-vbhcc7pzwg)** <br />
+From deploy to launch, watch me building up a fresh portfolio website in under 14 minutes!
 
 <br />
 
