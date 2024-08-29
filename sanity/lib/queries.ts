@@ -38,6 +38,7 @@ export const moreProjectsQuery = groq`
       "slug": slug.current,
       title,
       year,
+      _updatedAt,
     },
   }
 `

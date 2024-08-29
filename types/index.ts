@@ -34,6 +34,7 @@ export interface ShowcaseProject {
   tags?: string[]
   title?: string
   year?: string
+  _updatedAt?: string
 }
 
 // Page payloads
