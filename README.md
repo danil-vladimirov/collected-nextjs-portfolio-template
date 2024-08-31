@@ -38,6 +38,7 @@ Deploy this template with [Vercel](https://vercel.com) and start building your p
 - Side-by-side instant content preview that works across your whole site
 - CSS powered by [Tailwind CSS](https://tailwindcss.com)
 - Animation powered by [Framer Motion](https://www.framer.com/motion/)
+- Automatic `sitemap.xml` and `robots.txt` generation
 - Built-in customisation features:
   - Set your background and text colors for the entire website
   - Upload your favicon and OG-image
