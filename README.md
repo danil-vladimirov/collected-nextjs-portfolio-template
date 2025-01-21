@@ -1,5 +1,5 @@
 <p align="center">
-<img src="sanity/plugins/collected-logo-black.svg" align="center" height="70" />
+<img src="sanity/plugins/collected-logo-black.svg" align="center" height="70" alt="Collected" />
 </p>
 <p align="center">
   <strong>Portfolio website template built on <a href="https://nextjs.org">Next.js</a></strong><br />
@@ -24,7 +24,7 @@
 
 <br />
 
-A clean and easy-to-use portfolio website that helps visual creators showcase their work. Built with customisation in mind: set `custom colors` for your website, upload a `custom logo`, create projects with a modular `content builder`, and select and order the projects displayed on your Home page. This template is a statically generated portfolio website that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content.
+Collected is a clean and easy-to-use portfolio website that helps visual creators showcase their work. Built with customisation in mind: set `custom colors` for your website, upload a `custom logo`, create projects with a modular `content builder`, and select and order the projects displayed on your Home page. This template is a statically generated portfolio website that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content.
 
 Deploy this template with [Vercel](https://vercel.com) and start building your portfolio website right away:
 
