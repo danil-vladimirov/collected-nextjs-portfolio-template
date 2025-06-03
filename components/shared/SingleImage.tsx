@@ -18,7 +18,7 @@ export default function ImageBox({
   alt = 'Cover image',
   width = 3500,
   height = 2000,
-  size = '(min-width: 940px) 60vw, 100vw',
+  size = '(min-width: 940px) 80vw, 100vw',
   classesWrapper,
   caption,
   previewImageUrl = image?.lqip,

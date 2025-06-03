@@ -21,7 +21,7 @@ export default function ImageBox({
   alt = 'Project image',
   width = 3500,
   height = 2000,
-  sizes = '(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw',
+  sizes = '(min-width: 768px) 50vw, 100vw',
   classesWrapper,
   caption,
   previewLeftImageUrl = leftImage?.lqip,
@@ -29,28 +29,28 @@ export default function ImageBox({
 }: ImageBoxProps) {
   const leftImageUrl =
     leftImage &&
-    urlForImage(leftImage)?.height(height).width(width).fit('crop').url()
+    urlForImage(leftImage)?.url()
 
   const rightImageUrl =
     rightImage &&
-    urlForImage(rightImage)?.height(height).width(width).fit('crop').url()
+    urlForImage(rightImage)?.url()
 
   return (
     <div className="mt-5 md:mt-10">
       <div className="grid gap-5 grid-cols-1 xl:grid-cols-2">
         <div
-          className={`w-full overflow-hidden rounded-[3px] ${classesWrapper}`}
+          className={`w-full ${classesWrapper}`}
         >
           {leftImageUrl && (
             <Image
-              className="absolute h-full w-full"
               alt={alt}
+              className='rounded-[3px]'
               style={{
                 width: '100%',
                 height: 'auto',
               }}
-              width={500}
-              height={300}
+              width={width}
+              height={height}
               sizes={sizes}
               src={leftImageUrl}
               placeholder="blur"
@@ -59,18 +59,18 @@ export default function ImageBox({
           )}
         </div>
         <div
-          className={`w-full overflow-hidden rounded-[3px] ${classesWrapper}`}
+          className={`w-full ${classesWrapper}`}
         >
           {rightImageUrl && (
             <Image
-              className="absolute h-full w-full"
               alt={alt}
+              className='rounded-[3px]'
               style={{
                 width: '100%',
                 height: 'auto',
               }}
-              width={500}
-              height={300}
+              width={width}
+              height={height}
               sizes={sizes}
               src={rightImageUrl}
               placeholder="blur"

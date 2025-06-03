@@ -14,7 +14,7 @@ export const urlForImage = (source: Image | undefined) => {
     return undefined
   }
 
-  return imageBuilder?.image(source).auto('format').fit('max')
+  return imageBuilder?.image(source).auto('format').fit('max').quality(90)
 }
 
 export function urlForOpenGraphImage(image: Image | undefined) {

@@ -17,7 +17,7 @@ export default function ImageBox({
   alt = 'About image',
   width = 3500,
   height = 2000,
-  size = '(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw',
+  size = '(min-width: 940px) 60vw, 100vw',
   classesWrapper,
   previewImageUrl = image?.lqip,
 }: ImageBoxProps) {

@@ -6,7 +6,7 @@ interface FooterProps {
   homepage: HomePagePayload | null
 }
 export default function Footer(props: FooterProps) {
-  const {} = props ?? {}
+  const { } = props ?? {}
   const title = props.title
   const lastUpdated = props.homepage?._updatedAt ?? ''
   const displayLastUpdate = props.data?.displayLastUpdated
