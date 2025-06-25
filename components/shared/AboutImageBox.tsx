@@ -38,6 +38,7 @@ export default function ImageBox({
           src={imageUrl}
           placeholder="blur"
           blurDataURL={previewImageUrl}
+          quality={95}
         />
       )}
     </div>

@@ -55,6 +55,7 @@ export default function ImageBox({
               src={leftImageUrl}
               placeholder="blur"
               blurDataURL={previewLeftImageUrl}
+              quality={95}
             />
           )}
         </div>
@@ -75,6 +76,7 @@ export default function ImageBox({
               src={rightImageUrl}
               placeholder="blur"
               blurDataURL={previewRightImageUrl}
+              quality={95}
             />
           )}
         </div>
